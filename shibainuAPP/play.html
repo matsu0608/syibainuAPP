@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <link rel="stylesheet" href="stylesheet.css">
+  <meta charset="utf-8">
+  <title>柴犬とあそぼう</title>
+</head>
+<body>
+  <header>
+    <h1>「あそぼう！」</h1>
+    <h6>5秒以内にえらんでね</h6>
+  </header>
+  <section>
+    <main>
+      <p id=""></p>
+      <!-- <p id="question"></p>__して！系のやつ -->
+      <img src="img/score0.png" class="score❤_hidden">
+      
+      <img src="img/gamestart_dog.png" id="question" class="gmstInu">
+      <!-- <img class="gmstInu" src="img/ゲームスタート犬.png"> -->
+      <img src="img/score0.png" id="score❤">
+
+
+      <ul id="choices">
+        <!-- <li>❤頭を撫でる</li>
+        <li>❤お腹を撫でる</li>
+        <li>❤首を撫でる</li> -->
+      </ul>
+
+      <div id="timer">5</div>
+    </main>
+    <footer>
+      <button id="btn" class="button disabled" type="submit" >「つぎ」</button>
+  </section>
+
+    <section id="result" class="hidden">
+      <!-- <button id="btn" class="button" type="submit" onclick='location.href="result_3.html"'>「おわり！」</button>  -->
+      <a id="fin" class="button" type="button" href="result_3.html">「柴犬のようすは…」</a> 
+      <!-- ↑結果によってリンクさきを変えたい。 -->
+
+      <!-- ↓スコア（消すか、別の書き方したい。）    -->
+      <!-- <p></p> -->
+    </section>
+
+    <button class="fin" type="submit" onclick='location.href="index.html"'>「やっぱやめた」</button>
+
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+
+</html>
